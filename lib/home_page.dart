@@ -24,9 +24,9 @@ class HomePage extends StatelessWidget {
           ),
         ],
       ),
-      body: Center(
+      body: const Center(
         child: Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: EdgeInsets.all(8.0),
           child: Column(
             children: [
               CircleAvatar(
@@ -36,12 +36,12 @@ class HomePage extends StatelessWidget {
                   size: 70,
                 ),
               ),
-              const SizedBox(height: 8,),
+              SizedBox(height: 8,),
               Text(
                 'Ice cream is very delicious right?',
                 style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
               ),
-              const SizedBox(height: 32,),
+              SizedBox(height: 32,),
               CircleAvatar(
                 maxRadius: 80,
                 child: Row(
@@ -59,12 +59,12 @@ class HomePage extends StatelessWidget {
                   ],
                 ),
               ),
-              const SizedBox(height: 8,),
+              SizedBox(height: 8,),
               Text(
                 'Programming is not boring if you love it',
                 style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
               ),
-              const SizedBox(height: 32,),
+              SizedBox(height: 32,),
               CircleAvatar(
                 maxRadius: 70,
                 child: Icon(
@@ -72,7 +72,7 @@ class HomePage extends StatelessWidget {
                   size: 80,
                 ),
               ),
-              const SizedBox(height: 8,),
+              SizedBox(height: 8,),
               Text(
                 'If you submit code directly copy from chatgpt then mark will 0',
                 style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
