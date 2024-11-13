@@ -36,35 +36,33 @@ class HomePage extends StatelessWidget {
                   size: 70,
                 ),
               ),
-              SizedBox(height: 8,),
+              SizedBox(
+                height: 8,
+              ),
               Text(
                 'Ice cream is very delicious right?',
                 style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
               ),
-              SizedBox(height: 32,),
+              SizedBox(
+                height: 32,
+              ),
               CircleAvatar(
                 maxRadius: 80,
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Icon(
-                      Icons.chevron_left,
-                      size: 70,
-                    ),
-                    Icon(
-                      Icons.chevron_right,
-                      size: 70,
-                    ),
-                  ],
+                child: Icon(
+                  Icons.code,
+                  size: 70,
                 ),
               ),
-              SizedBox(height: 8,),
+              SizedBox(
+                height: 8,
+              ),
               Text(
                 'Programming is not boring if you love it',
                 style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
               ),
-              SizedBox(height: 32,),
+              SizedBox(
+                height: 32,
+              ),
               CircleAvatar(
                 maxRadius: 70,
                 child: Icon(
@@ -72,7 +70,9 @@ class HomePage extends StatelessWidget {
                   size: 80,
                 ),
               ),
-              SizedBox(height: 8,),
+              SizedBox(
+                height: 8,
+              ),
               Text(
                 'If you submit code directly copy from chatgpt then mark will 0',
                 style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
